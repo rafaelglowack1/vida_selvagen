@@ -12,7 +12,8 @@
     --cor5:#01415B;
 }
 body{
-    width: 108opx;
+    width: 1080px;
+    margin: auto;
     background-color: var(--cor1);
     
 }
@@ -24,7 +25,7 @@ header{
     
 }
 header nav{
-    margin-left: 950px;
+    margin-left: 700px;
 }
 nav  li a {
     text-decoration: none;
@@ -46,8 +47,14 @@ nav li{
 }
 section{
     display: flex;
+    margin: auto;
+    justify-content: space-between;
 }
-img{
-    width: 600px;
+#img{
+    width: 500px;
+    margin-right: 12px;
+}
+#text{
+    width: 700px;
 }
 
