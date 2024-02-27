@@ -20,8 +20,10 @@ body{
 header{
     background-color:var(--cor4);
     display: flex;
-    
+    font-family: "Kode Mono", monospace;
     padding: 20px;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.415);
+    border-radius: 0px 0px 10px 10px;
     
 }
 header nav{
@@ -29,10 +31,12 @@ header nav{
 }
 nav  li a {
     text-decoration: none;
-    padding: 3px;
+    padding-left: 9px;
+    padding-right: 9px;
     font-size: small;
-    padding: 8px;
+    
     text-align: center;
+    font-family: "Kode Mono", monospace;
 }
 nav li{
     margin-bottom: 3px;
@@ -41,8 +45,8 @@ nav li{
     border-style:  solid;
     border-radius: 5px;
     border-color:  #01425ba8 ;
-    width: 70px;
-    height: 25px;
+    width: 80px;
+    height: 19px;
     
 }
 section{
@@ -50,11 +54,93 @@ section{
     margin: auto;
     justify-content: space-between;
 }
+
 #img{
     width: 500px;
-    margin-right: 12px;
+    height: 340px;
+    border-radius: 14px 0px;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.415);
+    
 }
-#text{
-    width: 700px;
+#text h2{
+    margin-bottom: 10px;
+    font-family: "Kode Mono", monospace;
+    
+}
+#text p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, Times, serif;
+    color: rgba(0, 0, 0, 0.712);
+}
+article{
+    margin: 20px;
 }
 
+footer{
+    font-family: "Kode Mono", monospace;
+    background-color:var(--cor4);
+    display: flex;
+    padding: 30px;
+    
+}
+.form input{
+    background-color: #019586b7;
+    box-shadow:inset 0.5px 0.5px 5px rgba(0, 0, 0, 0.415);
+    border-style: none;
+    padding: 8px;
+    color: rgb(0, 0, 0);
+    margin: 1px;
+    border-radius: 5px;
+}
+.form textarea{
+    background-color: #019586b7;
+    box-shadow:inset 0.5px 0.5px 5px rgba(0, 0, 0, 0.415);
+    border-style: none;
+    padding: 8px;
+    color: rgb(0, 0, 0);
+    margin: 1px;
+    border-radius: 5px;
+    resize: none;
+    width: 163px;
+}
+form button{
+    width: 180px;
+    height: 30px;
+    background-color: #019586af;
+    cursor: pointer;
+    border-style: none;
+    box-shadow:inset 0.5px 0.5px 5px rgba(0, 0, 0, 0.415);
+}
+ form button:hover{
+    background-color: rgb(22, 138, 138);
+}
+footer article{
+    margin-left: 80px;
+    margin-top: 0px;
+}
+footer ul{
+    display: flex;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+footer li{
+    margin-left: 10px;
+    margin-right: 10px; 
+    list-style-type: none; 
+}
+.menor{
+    width: 30px;
+    height: auto;
+    
+}
+/*/
+ <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 400 to 700
+
+
+.kode-mono-<uniquifier> {
+  font-family: "Kode Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+} */

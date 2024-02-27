@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vida Selvagem</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -17,7 +20,7 @@
         </nav>
     </header>
     <section>
-        <article>
+        <article id="article_img">
             <img src="img/landscape-hills-covered-greenery-surrounded-by-sea-cloudy-sky-sunset.png" alt="flora " id="img">
         </article>
         <article id="text" >
@@ -30,24 +33,25 @@
 
     </section>
     <footer>
-        <form action="index.html">
+        <form action="index.html" class="form">
             <h3>alguma pergunta ?</h3>
-            <input type="text" placeholder="simples" required> <br>
-            <input type="email" required> <br>
-            <input type="number"> <br>
+            <input type="text" placeholder="nome" required> <br>
+            <input type="email" required placeholder="email"> <br>
             <textarea name="text" id="#" cols="24" rows="1" ></textarea> <br>
-            <!-- colocar resize no text area -->
+
             <button>enviar</button>
         </form>
-        <article> 
+        <article class="vida"> 
             <h3>nos acompanhe </h3>
             <ul>
-                <li></li>
+                <li><img src="img/facebook.png" alt="facebook" class="menor"></li>
+                <li><img src="img/instagram.png" alt="instagram" class="menor"></li>
+                <li><img src="img/youtube.png" alt="youtube"></li>
             </ul>
         </article>
         <article>
             <h3>venha até nós </h3>
-            <p>rua html número css / em frente ao JavaScript</p>
+            <p>rua html número css <br> em frente ao JavaScript</p>
         </article>
     </footer>
 </body>
